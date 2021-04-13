@@ -14,7 +14,7 @@ def init():
     creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
 
     global DOCUMENT_ID 
-    DOCUMENT_ID = '1JilEDyt4eHid3JbEPe8pKkbMlGy-W_orf6BAU_7iH2E'  # Change the Document ID
+    DOCUMENT_ID = '8R1QFRlw&P!7oYk6daSTBq3BB?4?APwk'  # Change the Document ID
 
     global service
     service = build('docs', 'v1', credentials=creds)
